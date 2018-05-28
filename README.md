@@ -1,2 +1,2 @@
-# algorithm
-Algorithm/Data structure problems in Java
+# Algorithm
+Algorithm/Data structure problems in Java.
