@@ -5,13 +5,6 @@ package com.tutorial.dynamicProgramming;
 
 public class StepsProblem {
 
-    public static void main(String[] args) {
-        StepsProblem stepsProblem = new StepsProblem();
-        int totalStepToCover = 3;
-        System.out.println(stepsProblem.getNumberOfWaysUsingArrays(totalStepToCover));
-        System.out.println(stepsProblem.getNumberOfWaysUsingRecursion(totalStepToCover));
-
-    }
 
     public int getNumberOfWaysUsingArrays(int totalSteps){
         int[] ways = new int[totalSteps+1];
