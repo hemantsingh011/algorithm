@@ -17,4 +17,9 @@ public class CuttingRodProblemTest {
         int maxProfitUsingRecuring = cuttingRodProblem.getMaxProfitUsingRecursion(8);
         Assert.assertEquals(22, maxProfitUsingRecuring);
     }
+    @Test
+    public void test_GetMaxProfitUsingArrays(){
+        int maxProfitUsingRecuring = cuttingRodProblem.getMaxProfitUsingArrays(8);
+        Assert.assertEquals(22, maxProfitUsingRecuring);
+    }
 }
