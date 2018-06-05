@@ -1,6 +1,6 @@
 package com.algorithm.sorting;
 
-public class BubbleSort {
+public class BubbleSort implements  Sort{
 
     public int[] sort(int[] unsortedArray) {
         for(int i = unsortedArray.length-1 ; i>=0; i--){
@@ -9,13 +9,13 @@ public class BubbleSort {
 
                 if(unsortedArray[j]>unsortedArray[j+1]){
 
-                    int temp = unsortedArray[j];
-                    unsortedArray[j] = unsortedArray[j+1];
-                    unsortedArray[j+1] = temp;
+                    ArrayUtil.swap(unsortedArray, j, j+1);
                 }
             }
 
         }
         return unsortedArray;
     }
+
+
 }
