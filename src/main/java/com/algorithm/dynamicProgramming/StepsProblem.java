@@ -1,7 +1,7 @@
 // Problem statement: Count ways to reach the nth stair using step 1, 2 or 3
 
 
-package com.tutorial.dynamicProgramming;
+package com.algorithm.dynamicProgramming;
 
 public class StepsProblem {
 

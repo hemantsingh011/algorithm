@@ -1,4 +1,4 @@
-package com.tutorial.dynamicProgramming;
+package com.algorithm.dynamicProgramming;
 
 import org.junit.Assert;
 import org.junit.Test;
